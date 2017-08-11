@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">McMaster CAD</a></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('https://autodesk.i.lithium.com/t5/image/serverpage/image-id/304291i0CE37C9B6C081FBC?v=1.0/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                  <h2>Product Design</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://autodesk.i.lithium.com/t5/image/serverpage/image-id/304291i0CE37C9B6C081FBC?v=1.0/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                  <h2>Project Management</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://autodesk.i.lithium.com/t5/image/serverpage/image-id/304291i0CE37C9B6C081FBC?v=1.0/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                  <h2>Team Work</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">McMaster CAD brings the future closer.</h1>
+        </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4><em class="fa fa-fw fa-check"></em> 3D &amp; 2D CAD Design</h4>
+                    </div>
+                    <div class="panel-body">
+                      <p>Get a visual concept of your idea that enable you to see every detail for advanced analysis. Then, bring your idea to life by creating 2D drawings for manufacturing or patenting purposes. </p>
+                      <a href="#" class="btn btn-default">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4><em class="fa fa-fw fa-check"></em> Product Design Development</h4>
+                    </div>
+                    <div class="panel-body">
+                      <p>Here at McMaster, we will conduct market research , analyze each product and suggest improved ideas that will help your concept become adanced and more uneque to give you a competetive edge. </p>
+                      <a href="#" class="btn btn-default">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4><em class="fa fa-fw fa-check"></em>Reverse Engineering</h4>
+                    </div>
+                    <div class="panel-body">
+                      <p>Drawings get lost. McMaster CAD will help you get them back by measuring the physical product. Or, improve an existing product by converting physical dimensions to CAD. </p>
+                      <a href="#" class="btn btn-default">Get Quote</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4><em class="fa fa-fw fa-check"></em> Drawing Conversions</h4>
+                </div>
+                <div class="panel-body">
+                  <p>Convert PDF files to CAD. Or, if you have any other formats but need them in CAD drawings. McMaster CAD will provide you with any type of drawing you prefer that will help you procceed to your next product development process.</p>
+                <a href="#" class="btn btn-default">Get Quote</a> </div>
+              </div>
+            </div>
+        <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4><em class="fa fa-fw fa-check"></em> SolidWorks Services</h4>
+                </div>
+                <div class="panel-body">
+                  <p>SolidWorks is a world wide known CAD software. It allows you to create simple 3D or 2D designs. And, it is a powerful tool to create very complex desings that require simulations, renderings, and advanced analysis. How can we help you?</p>
+                <a href="#" class="btn btn-default">Get Quote</a></div>
+              </div>
+            </div>
+        <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4><em class="fa fa-fw fa-check"></em> Autodesk AutoCAD Services</h4>
+                </div>
+                <div class="panel-body">
+                  <p>AutoCAD has been one of the oldest and most respect CAD software in the engineering industry. &nbsp;We will create industry standard 2D drawings that will be accepted to manufactur by most compaines and manufactuers.</p>
+                <a href="#" class="btn btn-default">Get Quote</a></div>
+              </div>
+            </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4><em class="fa fa-fw fa-check"></em> Autodesk Inventor Services</h4>
+            </div>
+            <div class="panel-body">
+              <p>Do you have a simple yet powerful idea? Inventor is a simple yet powerful CAD software built by a Autodesk. We will help you bring your idea to life and provide you with a step-by-step design process of how to design your own idea. </p>
+            <a href="#" class="btn btn-default">Get Quote</a></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4><em class="fa fa-fw fa-check"></em> Design Optimization</h4>
+            </div>
+            <div class="panel-body">
+              <p>Are you have dificutlties implenting your product design or functionality. We would gladly assist you to improve your idea by suggesting new concepts. We will analyze, update or revise old drawings to create further improvement.</p>
+            <a href="#" class="btn btn-default">Get Quote</a></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4><em class="fa fa-fw fa-check"></em> Product Design Management</h4>
+            </div>
+            <div class="panel-body">
+              <p>McMaster CAD can take charge of your current design team, out sourced freelancers and independent contractors. We will manage the team and make sure the product design process is under control &nbsp; </p>
+            <a href="#" class="btn btn-default">Get Quote</a></div>
+          </div>
+        </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+      
+      <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+              <h2 class="page-header">Why Us</h2>
+            </div>
+            <div class="col-md-6">
+              <p>McMaster CAD will get the job done. This is how:</p>
+              <ul>
+                <li><strong>Provide a road map of product design and project management</strong></li>
+                <li>Set project deadlines and meet On Time Delivery (OTD)</li>
+                <li>Prioritize deliverables</li>
+                <li>Leverage resources to maintain strong business-client communication, including client access to file sharing</li>
+                <li>Maximize development efficiency and minimize errors and revisions by acknowledging responsibilities of both the project development team and the client</li>
+                <li>Provide a SOW document to analyze the the overall outlook of the project management and the design process</li>
+              </ul>
+              <p>It is critical to maintain a high level of organization and planning so each project is handled professionally. With our methodology, we will get the job done and help you bring your ideas to life.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/boot.jpg" alt="">
+            </div>
+      </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Premium ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4"><a class="btn btn-lg btn-default btn-block" href="#">Contact Us</a></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                  <p>Copyright &copy; McMaster CAD 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
